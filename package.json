@@ -1,0 +1,40 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "NodeJs Boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "export NODE_ENV=test && node baseTest.js && mocha --timeout 10000 --exit"
+  },
+  "author": "Codal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "sequelize": "^6.23.0",
+    "should": "^13.2.3",
+    "sqlite3": "^5.1.1",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "mocha": "^9.2.2",
+    "prettier": "^2.6.2",
+    "sequelize-cli": "^6.4.1"
+  }
+}
